@@ -1,0 +1,119 @@
+body{
+  background-color:gainsboro;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#777777;
+}
+.logo{
+  background-color: #4aaaa5;
+  
+  height: 50px;
+  text-align: center;
+  color:#ffffff;
+  float: left;
+  margin: 0;
+  padding:10px;
+  font-size: 25px;
+
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:auto;
+  background-color:seashell;
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color:#777777;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.imagebio{
+  width: 250px;
+  height: 250px;
+  float: left;
+  padding: 20px;
+  margin: 0;
+}
+p{
+  font-size: 16px;
+  line-height: 2;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  
+}
+.cointainer{
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 960px;
+  background-color:seashell;
+  height: 500px;
+}
+.h2{
+  padding: 20px;
+  margin: 0;
+  color:#4aaaa5;
+}
+.nav{
+  width: 100%;
+ 
+}
+.cont-info{
+  padding: 40px;
+  margin: 0;
+}
+input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: 
+}
+
+button {
+  width: 30%;
+  background-color: #4aaaa5;
+  color:#ffffff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+textarea {
+  width: 80%;
+  height: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+.img3{
+  margin-right: 200px;
+}
